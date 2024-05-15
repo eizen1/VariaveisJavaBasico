@@ -1,9 +1,15 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        boolean variavel = true;
+       int a, b;
+       a = 5;
+       b = 5;
 
-        variavel = !variavel;
-        
-        System.out.println(variavel);
+       String resultado = "";
+       if (a ==b)
+            resultado ="verdadeiro";
+       else 
+            resultado = "falso";
+
+            System.out.println(resultado);
     }
 }
